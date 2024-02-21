@@ -1,0 +1,37 @@
+.topBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #242424;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nameSection{
+  display: inline;
+}
+
+.linkSection{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.linkItem1, .linkItem2, .linkItem3{
+  text-decoration: none;
+}
+
+.linkItem1{
+  color: green;
+}
+
+.linkItem2{
+  color: blue;
+}
+
+.linkItem3{
+  color: purple;
+}
