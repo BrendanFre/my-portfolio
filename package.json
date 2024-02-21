@@ -9,8 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.185",
-    "unplugin-icons": "^0.18.5",
     "vite": "^5.1.0"
+  },
+  "dependencies": {
+    "ion-icon-library": "^0.0.1"
   }
 }
