@@ -1,9 +1,9 @@
 .topBar{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
-  background-color: #242424;
+  background-color: var(--primary-color);
   margin: 0;
   padding: 0;
 
@@ -11,6 +11,8 @@
 
 .nameSection{
   display: inline;
+  margin: auto 0;
+  font-weight: 700;
 }
 
 .linkSection{
@@ -22,16 +24,17 @@
 
 .linkItem1, .linkItem2, .linkItem3{
   text-decoration: none;
+  margin-left: 5px;
 }
 
 .linkItem1{
-  color: green;
+  color: var(--secondary-color);
 }
 
 .linkItem2{
-  color: blue;
+  color: var(--tertiery-color);
 }
 
 .linkItem3{
-  color: purple;
+  color: var(--quaternary-color);
 }

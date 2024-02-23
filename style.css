@@ -4,14 +4,22 @@
   font-weight: 400;
   margin: 0;
   padding: 0;
+  min-width: 200px;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
+  --primary-color: #27272a;
+  --primary-t-color: #f4f4f5;
+  --secondary-color: #22c55e;
+  --tertiery-color: #0ea5e9;
+  --quaternary-color: #ef4444;
+  background-color: var(--primary-color);
+  color: var(--primary-t-color);
 }
