@@ -1,0 +1,28 @@
+.navItem{
+  text-decoration: none;
+  color: var(--quaternary-color);
+  padding: 5px;
+}
+
+.navItem:hover, .navItem:focus{
+  outline: none;
+  animation-name: enlarge;
+  animation-duration: 1s;
+  text-shadow: var(--text-shadow);
+}
+
+.navItem:nth-of-type(2){
+  color: var(--secondary-color);
+}
+.navItem:nth-of-type(3){
+  color: var(--tertiery-color);
+}
+
+@keyframes enlarge {
+  from {
+    text-shadow: 0;
+  }
+  to {
+    text-shadow: var(--text-shadow);
+  }
+}

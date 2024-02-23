@@ -1,5 +1,19 @@
 .mainContainer{
-  margin: 5px 0;
-  padding: 5px;
+  margin: 1vh 1vw;
+  padding: 1vw 2vw;
   background-color: #302f2f;
+}
+
+.mainContainer:hover, .mainContainer:focus{
+  animation-name: growSection;
+  animation-delay: 2s;
+}
+
+@keyframes growSection {
+  from {
+    transform: scale(0.1)
+  }
+  to {
+    transform: scale(1.1);
+  }
 }

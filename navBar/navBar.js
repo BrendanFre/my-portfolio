@@ -1,3 +1,4 @@
+import createNavItem from "./createNavItem";
 import "./navBar.css";
 const isHidden = document.querySelectorAll(".hidden");
 
@@ -18,7 +19,7 @@ export default (parent) => {
 function createLinksBar(parent) {
   const linkSection = document.createElement("ul");
   linkSection.classList.add("linkSection");
-  getLinks(linkSection);
+  getLinksV2(linkSection);
   parent.appendChild(linkSection);
 }
 
@@ -35,4 +36,10 @@ function getLinks(parent) {
   });
   parent.innerHTML = linkObjects.join("");
   console.log(linkObjects);
+}
+
+function getLinksV2(parent) {
+  createNavItem(parent, "Home", "https://www.brendanfreemandev.com");
+  createNavItem(parent, "About", "https://www.brendanfreemandev.com/about");
+  createNavItem(parent, "Contact", "https://www.brendanfreemandev.com/contact");
 }
